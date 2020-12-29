@@ -1,6 +1,6 @@
 # membrane-skija-example
 
-FIXME: my new application.
+Example of using skija with membrane.
 
 ## Installation
 
@@ -14,10 +14,6 @@ Run the project directly:
 
     $ clojure -M -m com.phronemophobic.membrane-skija-example
 
-Run the project's tests (they'll fail until you edit them):
-
-    $ clojure -M:test:runner
-
 Build an uberjar:
 
     $ clojure -M:uberjar
@@ -26,21 +22,6 @@ Run that uberjar:
 
     $ java -jar membrane-skija-example.jar
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
