@@ -13,8 +13,9 @@
    (ui/on
     :mouse-down
     (fn [_]
-      (swap! counter inc))
-    (ui/label "count: " @counter))))
+      (swap! counter inc)
+      nil)
+    (ui/label (str "count: " @counter)))))
 
 (defn run-test-ui [ & args]
   (skija/run #'test-ui))
