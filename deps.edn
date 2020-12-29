@@ -1,7 +1,7 @@
 {:paths ["src" "resources"]
  :mvn/repos {"space-maven" {:url "https://packages.jetbrains.team/maven/p/skija/maven"}}
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
-        com.phronemophobic/membrane {:mvn/version "0.9.18-beta-SNAPSHOT"}
+        com.phronemophobic/membrane {:mvn/version "0.9.18-beta"}
 
         org.jetbrains.skija/skija-macos {:mvn/version "0.6.45"}
         org.jetbrains.skija/skija-linux {:mvn/version "0.6.45"}
